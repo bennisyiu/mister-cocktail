@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'open-uri'
 
-url = 'curl "http://api-cocktails.herokuapp.com/api/v1/cocktails" -H "Authorization: Token token=YUQ7mlvxE6rDburtzmHBTAtt"'
+url =
 drinks = JSON.parse(open(url).read)
